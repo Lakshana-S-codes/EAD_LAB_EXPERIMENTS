@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Black & White Chessboard with Pieces</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ccc;
+  }
+  .chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    border: 3px solid #333;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  .square {
+    width: 60px;
+    height: 60px;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  }
+  .light {
+    background-color: #FFFFFF; /* white */
+    color: black; /* piece color on white square */
+  }
+  .dark {
+    background-color: #000000; /* black */
+    color: white; /* piece color on black square */
+  }
+</style>
+</head>
+<body>
+  <div class="chessboard">
+    <!-- Row 8 -->
+    <div class="square dark">&#9820;</div> <!-- Black Rook -->
+    <div class="square light">&#9822;</div> <!-- Black Knight -->
+    <div class="square dark">&#9821;</div> <!-- Black Bishop -->
+    <div class="square light">&#9819;</div> <!-- Black Queen -->
+    <div class="square dark">&#9818;</div> <!-- Black King -->
+    <div class="square light">&#9821;</div> <!-- Black Bishop -->
+    <div class="square dark">&#9822;</div> <!-- Black Knight -->
+    <div class="square light">&#9820;</div> <!-- Black Rook -->
+
+    <!-- Row 7 -->
+    <div class="square light">&#9823;</div> <!-- Black Pawn -->
+    <div class="square dark">&#9823;</div>
+    <div class="square light">&#9823;</div>
+    <div class="square dark">&#9823;</div>
+    <div class="square light">&#9823;</div>
+    <div class="square dark">&#9823;</div>
+    <div class="square light">&#9823;</div>
+    <div class="square dark">&#9823;</div>
+
+    <!-- Rows 6 to 3 empty -->
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+    <div class="square light"></div>
+    <div class="square dark"></div>
+
+    <!-- Row 2 -->
+    <div class="square dark">&#9817;</div> <!-- White Pawn -->
+    <div class="square light">&#9817;</div>
+    <div class="square dark">&#9817;</div>
+    <div class="square light">&#9817;</div>
+    <div class="square dark">&#9817;</div>
+    <div class="square light">&#9817;</div>
+    <div class="square dark">&#9817;</div>
+    <div class="square light">&#9817;</div>
+
+    <!-- Row 1 -->
+    <div class="square light">&#9814;</div> <!-- White Rook -->
+    <div class="square dark">&#9816;</div> <!-- White Knight -->
+    <div class="square light">&#9815;</div> <!-- White Bishop -->
+    <div class="square dark">&#9813;</div> <!-- White Queen -->
+    <div class="square light">&#9812;</div> <!-- White King -->
+    <div class="square dark">&#9815;</div> <!-- White Bishop -->
+    <div class="square light">&#9816;</div> <!-- White Knight -->
+    <div class="square dark">&#9814;</div> <!-- White Rook -->
+  </div>
+</body>
+</html>
