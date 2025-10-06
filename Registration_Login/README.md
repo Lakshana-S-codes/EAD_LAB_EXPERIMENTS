@@ -27,7 +27,7 @@ login-registration/
 
 ## How to Use
 
-1. **Open `index.html`** in any modern web browser.  
+1. **Open `Registration_Login.html`** in any modern web browser.  
 2. **Register a new user** by filling in username, email, and password.  
 3. After registration, you will be redirected to the **Login form**.  
 4. **Login** with the same username and password.  
