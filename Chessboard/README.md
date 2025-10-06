@@ -25,7 +25,7 @@ chessboard/
 ## How to Use
 
 1. **Download** or **clone** the repository.  
-2. Open `index.html` in any modern web browser.  
+2. Open `Chessboard.html` in any modern web browser.  
 3. The chessboard will appear centered with all pieces in their **initial positions**.  
 
 ---
