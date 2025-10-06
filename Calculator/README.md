@@ -26,7 +26,7 @@ Calculator/
 
 ## How to Use
 
-1. **Open `index.html`** in any modern web browser.  
+1. **Open `Calculator.html`** in any modern web browser.  
 2. Click the **number buttons** to input numbers.  
 3. Click **operator buttons** (`+`, `-`, `*`, `/`) to perform operations.  
 4. Click `=` to calculate the result.  
