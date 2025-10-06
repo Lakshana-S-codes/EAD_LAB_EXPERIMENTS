@@ -1,16 +1,65 @@
-# React + Vite
+# Password Strength Checker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **web-based password strength checker** built using **React**.  
+It evaluates the strength of a password based on length, use of uppercase and lowercase letters, numbers, and special characters.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Evaluates password strength as **Weak, Moderate, Strong, or Very Strong**.
+- Instant feedback while typing the password.
+- Color-coded strength indicator:
+  - **Weak** → Red  
+  - **Moderate** → Orange  
+  - **Strong** → Green  
+  - **Very Strong** → Dark Green
+- Centered and responsive layout.
+- Simple and clean **modern UI**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## File Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+password-strength-checker/
+├── src/
+│ ├── App.jsx # Main React component rendering PasswordStrengthChecker
+│ ├── PasswordStrengthChecker.jsx # Component for password input and strength evaluation
+├── package.json # Project dependencies and scripts
+├── README.md # Project description and instructions
+
+---
+
+## How to Use
+
+1. **Clone the repository** and navigate to the project folder.  
+2. Install dependencies:
+```bash
+npm install
+Start the development server:
+
+npm start
+
+
+Open the app in your browser (usually at http://localhost:3000).
+
+Type a password to see its strength evaluated in real-time.
+
+Technologies Used
+
+React (with Hooks like useState)
+
+JavaScript (for password evaluation logic)
+
+CSS (inline and component styling for layout and colors)
+
+License
+
+This project is open source and free to use.
+
+
+---
+
+If you want, I can **also create a single unified README for all your HTML and React projects** so you can manage everything in one GitHub repository.  
+
+Do you want me to do that?
